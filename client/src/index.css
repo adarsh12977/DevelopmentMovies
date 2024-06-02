@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand{
+  color: rgb(133, 27, 27);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.nav-link{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300 !important;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.footer {
+  color: white;
+  padding: 25px;
+  background: #000000;
+  background: -webkit-linear-gradient(
+    to right,
+    #711717,
+    #000000
+  );
+  background: linear-gradient(to right, #711717, #000000);
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #ffefba;
+}
+
+.banner-text{
+  margin-top: 150px;
+  margin-left: 50px;
+}
+
+.content-texts{
+  font-family: 'Fredoka', sans-serif;
+}
+
+.home-page {
+  display: flex;
+  flex-wrap: wrap;
+}
+.home-page .card {
+  background-color: rgba(128, 128, 128, 0.097);
+  width: 18rem;
+}
+.home-page .card-name-price {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home-page .card-price {
+  color: green;
+  font-weight: bold;
+}
+.home-page button {
+  border-radius: 0;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.home-page .card-text {
+  color: rgb(90, 89, 89);
+}
+
+.home-page .card img:hover {
+  transform: scale(0.9);
+}
+
+.home-page .card-img-top {
+  height: 300px !important;
+}
+
+.card-img-top{
+  height: 300px !important;
+}
+
+.search-form {
+  margin-right: 10px;
+  margin-top: 4px;
+}
+.search-form input {
+  border: none;
+  border-radius: 0;
+}
+.search-form button {
+  background-color: #000000;
+  border-radius: 0;
+  color: white;
+}
+
+.dashboard {
+  margin-top: 100px !important;
+}
+
+.dashboard-menu h4 {
+  background-color: #434343 !important;
+  color: white;
+  padding: 20px 0px;
+}
+
+.contactus {
+  margin: 0;
+  padding: 0;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
